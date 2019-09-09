@@ -4,6 +4,7 @@
 #include <QMainWindow>
 #include <QtGui>
 #include <QtWidgets>
+#include <QTimer>
 
 class QtMini : public QMainWindow
 {
@@ -12,11 +13,12 @@ class QtMini : public QMainWindow
     QLineEdit *lineSlider;
     QLabel *lineRadio;
     QTextEdit *textDialog;
-    QColorDialog *qcdialog;
     QTextEdit *textCombo;
+    QProgressBar *qProgressBar;
 
 public:
     QtMini();
+
 
 signals:
 
@@ -28,6 +30,7 @@ public slots:
     void onRb1Clicked();
     void setBackgroundColor();
     void displayChoice(int value);
+    void updateProgress();
 };
 
 #endif // QTMINI_H

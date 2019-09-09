@@ -17,11 +17,9 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     main.cpp \
-    mainwindow.cpp \
     qtmini.cpp
 
 HEADERS += \
-    mainwindow.h \
     qtmini.h
 
 

@@ -1,0 +1,19 @@
+#ifndef WIDGET_DAYDISPLAY_H
+#define WIDGET_DAYDISPLAY_H
+
+#include <QPainter>
+
+
+class widget_daydisplay
+{
+    Q_OBJECT
+private :
+    
+    
+public :
+    widget_daydisplay();
+
+    ~widget_daydisplay();
+};
+
+#endif // WIDGET_DAYDISPLAY_H
